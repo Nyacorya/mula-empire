@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ably/ably-php' => array(
+            'pretty_version' => '1.1.12',
+            'version' => '1.1.12.0',
+            'reference' => '63cec0ddc8d140b8ba8007f70015dceb80babfda',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ably/ably-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rybakit/msgpack' => array(
+            'pretty_version' => 'v0.10.0',
+            'version' => '0.10.0.0',
+            'reference' => '17fdc1e09f986181850dcfef4851a03ea6539e95',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rybakit/msgpack',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

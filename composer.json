@@ -1,0 +1,10 @@
+{
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "require": {
+        "ably/ably-php": "^1.1"
+    }
+}
