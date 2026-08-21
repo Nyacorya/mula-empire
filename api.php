@@ -974,7 +974,7 @@ if ($action === 'send' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         error_log('WebPush failed: ' . $e->getMessage());
     }
 
-    // Always return success after insertion
+    // Always return success after insertion.
     sendJson(['success' => true, 'message_id' => $messageId]);
 }
 
